@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Linknpay/capacitor-facebook-events.git"
+    "url": "git+https://github.com/kurtiev/capacitor-facebook-events.git"
   },
   "bugs": {
-    "url": "https://github.com/Linknpay/capacitor-facebook-events/issues"
+    "url": "https://github.com/kurtiev/capacitor-facebook-events/issues"
   },
   "keywords": [
     "capacitor",
