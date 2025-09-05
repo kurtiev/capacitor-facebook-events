@@ -1,13 +1,15 @@
-###  Origin from: https://github.com/Linknpay/capacitor-facebook-events
+###  Fork from: https://github.com/Linknpay/capacitor-facebook-events
+###  Changes includes support of Facebook SDK 18. Capacitor 7 coming soon.
 
-# capacitor-facebook-events
+
+# @fikretkurtiiev/capacitor-facebook-events
 
 Facebook events tracking in Capacitor applications
 
 ## Install
 
 ```bash
-npm i --save capacitor-facebook-events
+npm i --save @fikretkurtiiev/capacitor-facebook-events
 npx cap sync
 ```
 
@@ -56,7 +58,7 @@ logEvent(options: { event: string; params?: any; }) => Promise<void>
 To log a registration event, use the 'fb_mobile_complete_registration' event name:
 
 ```typescript
-import { FacebookEvents } from 'capacitor-facebook-events';
+import { FacebookEvents } from '@fikretkurtiiev/capacitor-facebook-events';
 
 // ...
 
@@ -72,7 +74,7 @@ params: {
 For logging a purchase event, use the 'fb_mobile_purchase' event name with relevant parameters:
 
 ```typescript
-import { FacebookEvents } from 'capacitor-facebook-events';
+import { FacebookEvents } from '@fikretkurtiiev/capacitor-facebook-events';
 
 // ...
 
