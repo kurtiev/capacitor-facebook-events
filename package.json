@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-facebook-events",
+  "name": "@fikretkurtiiev/capacitor-facebook-events",
   "version": "6.0.3",
   "description": "Facebook events tracking in Capacitor applications",
   "main": "dist/plugin.cjs.js",
@@ -14,7 +14,7 @@
     "ios/Plugin/",
     "CapacitorFacebookEvents.podspec"
   ],
-  "author": "Ghazi Ketata",
+  "author": "Ghazi Ketata (original author), Fikret Kurtiiev (maintainer)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -67,6 +67,9 @@
   "swiftlint": "@ionic/swiftlint-config",
   "eslintConfig": {
     "extends": "@ionic/eslint-config/recommended"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "capacitor": {
     "ios": {
