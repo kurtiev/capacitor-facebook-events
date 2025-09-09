@@ -1,6 +1,6 @@
 {
   "name": "@fikretkurtiiev/capacitor-facebook-events",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "description": "Facebook events tracking in Capacitor applications",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -12,7 +12,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorFacebookEvents.podspec"
+    "FikretkurtiievCapacitorFacebookEvents.podspec"
   ],
   "author": "Ghazi Ketata (original author), Fikret Kurtiiev (maintainer)",
   "license": "MIT",
